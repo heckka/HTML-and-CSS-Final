@@ -1,0 +1,124 @@
+body{
+    color:black;
+    background-color:lightgreen;
+    font-family:Georgia,"Times New Roman",Times, serif;
+    font-size:1.25em;
+}
+summary{
+    color: darkorchid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:150%;
+    font-style:italic;
+}
+h1{
+    color: orangered;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:300%;
+    font-weight: 600;
+    text-shadow:1px 1px darkslategrey;
+    text-align: center;
+}
+h2{
+    color:darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    background-color: lightgray;
+    text-align: left;
+    border-bottom: lightseagreen dotted;
+
+}
+aside{
+    margin-left:50%;
+    background-color: lightskyblue;
+    width:30%;
+    padding:10px;
+    overflow:auto;
+}
+div{
+    background-color: lightskyblue;
+    padding:20px;
+}
+nav{
+    background-color: blanchedalmond;
+    padding:10px;
+	margin:50px auto; 
+	text-align: left;
+}
+
+nav ul {
+    background: linear-gradient(0deg, lightgreen, lightskyblue,lightgreen); 
+	box-shadow: 6px 6px 6px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	color:black;
+	font-weight:900;
+	width:100%;
+	display:inline-table;
+}
+nav ul li {
+	display:inline-table;
+}
+nav ul li a {
+	display: block; 
+	padding: 25px 40px;
+	color: blueviolet; 
+	text-decoration: none;
+}
+nav ul li:hover {
+    background: linear-gradient(180deg, darkorange, darkorchid, darkorange); 
+}
+nav ul li:hover a {
+	color: chartreuse;
+}
+nav ul li:hover > ul {
+	display:flex;
+	flex-direction:column;
+	width:30%;
+}
+	
+nav ul ul {
+	display: none;
+    background: linear-gradient(180deg, lightseagreen,  lightskyblue, lightgreen); 
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute; 
+	z-index:10;
+}
+nav ul ul li {
+	display:block; 
+	border-top: 1px solid yellow;
+	border-bottom: 1px solid yellow; 
+	position: relative;
+}
+nav ul ul li a {
+	padding: 15px 40px;
+	color: yellow;
+}	
+nav ul ul li a:hover {
+	background: darkorchid;
+	color:yellow;
+}
+footer{
+    margin-top:200px;
+}
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: darkorange;
+    overflow: auto; /* Overflow due to float */
+    padding: 0%;
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color:black; /* Black text color */
+    font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color:pink; /* Add a hover color */
